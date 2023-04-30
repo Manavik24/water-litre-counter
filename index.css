@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+#display,
+#display1 {
+  text-align: center;
+  background-color: rgb(186, 144, 198);
+  color: white;
+  height: 7vh;
+  font-size: 6vh;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(232, 160, 191);
+  color: white;
+}
+.container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#save,
+#increment {
+  height: 8vh;
+  width: 10vw;
+}
+button {
+  font-size: larger;
+  font-weight: bolder;
+  background-color: rgb(186, 144, 198);
+  color: white;
+  border-radius: 8px;
+}
+#two {
+  height: 7vh;
+  background-color: rgb(232, 160, 191);
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 3vh;
+  font-weight: bold;
+  padding: 2vh;
+}
+
+body {
+  background-image: url("water.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+img {
+  height: 60vh;
+}
+
+@media screen and (max-width: 1000px) {
+  button {
+    font-size: small;
+  }
+}
+@media screen and (max-width: 700px) {
+  button {
+    font-size: xx-small;
+  }
+}
